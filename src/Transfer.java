@@ -46,13 +46,13 @@ public class Transfer
    				}
    				else
    				{
-   					System.out.println("Amount is insufficient");
+   					System.out.println("Amount in the account is insufficient");
    				}
    			}
    		}
    		else 
    		{
-   			System.out.println("Account Number invalid!");
+   			System.out.println("Account Number is invalid!");
    		}
 		}
 	}
