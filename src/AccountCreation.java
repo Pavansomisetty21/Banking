@@ -13,7 +13,7 @@ public class AccountCreation
 	String fname=sc.next();
 	System.out.println("Enetr your Lastst Name:");
 	String lname=sc.next();
-	System.out.println("Enter you 10 digit Mobile Number:");
+	 System.out.println("Enter you 10 digit Mobile Number:");
 	long mnum=sc.nextLong();
 	System.out.println("Enter you 12 digit Adhar Number:");
 	long adharnum=sc.nextLong();
