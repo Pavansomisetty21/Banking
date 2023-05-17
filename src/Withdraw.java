@@ -9,17 +9,17 @@ public class Withdraw
 		long amount=input.nextLong();
 		if(amount<=Balance.balance(con, anum)) {
 			amount=Balance.balance(con, anum)-amount;
-		new Deposite(con,anum,amount);
-		System.out.println("Withdraw Sucessful");
+		new Deposit(con,anum,amount);
+		System.out.println("Withdraw Successful");
 		}else
 		{
-			System.out.println("Insufficient amount");
+			System.out.println("Insufficient amount to withdraw");
 		}
 	}
 	public Withdraw(Connection con,long anum,long amount)throws Exception 
 	{
 		amount=Balance.balance(con, anum)-amount;
-		new Deposite(con,anum,amount);
+		new Deposit(con,anum,amount);
 	}
 
 }
