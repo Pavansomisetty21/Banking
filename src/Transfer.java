@@ -41,12 +41,12 @@ public class Transfer
    				{
    					new Withdraw(con,anum,amount);
    					amount=Balance.balance(con,destAccNum)+amount;
-   				new Deposite(con,destAccNum,amount);
+   				new Deposit(con,destAccNum,amount);
    				System.out.println("Transfer successful");
    				}
    				else
    				{
-   					System.out.println("Amount in the account is insufficient");
+   					System.out.println("Account doesn't have sufficient amount to transfer");
    				}
    			}
    		}
