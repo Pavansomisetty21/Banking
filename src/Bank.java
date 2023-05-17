@@ -47,7 +47,7 @@ public class Bank {
 					   		int exit=0;
 					   		switch(choice2)
 					   		{
-					   		case 1:new Deposite(con,anumber,input);
+					   		case 1:new Deposit(con,anumber,input);
 					   				break;
 					   		case 2:new Withdraw(con,anumber,input);
 					   				break;
@@ -83,7 +83,7 @@ public class Bank {
 				   			System.out.println("Forget Account number(press 1):");
 				   			if(input.nextInt()==1)
 				   			{
-				   				System.out.println("Enter your 12 digit adharnumber:");
+				   				System.out.println("Enter your 12 digit adhaarnumber:");
 				   				long aNum=input.nextLong();
 				   				System.out.println("Enter Registered mobile number:");
 				   				long mNum=input.nextLong();
