@@ -11,7 +11,8 @@ public class Withdraw
 			amount=Balance.balance(con, anum)-amount;
 		new Deposit(con,anum,amount);
 		System.out.println("Withdraw Successful");
-		}else
+		}
+else
 		{
 			System.out.println("Insufficient amount to withdraw");
 		}
