@@ -15,7 +15,7 @@ public class Bank {
 		while(true)
 		{
 			System.out.println("1.Existing Customer \n2.New Customer\n3.Exit");
-			System.out.println("Enter you choice:");
+			System.out.println("Enter your choice:");
 			int choice=0;
 			choice=input.nextInt();
 			switch(choice)
