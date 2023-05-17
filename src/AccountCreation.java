@@ -9,9 +9,9 @@ public class AccountCreation
 	AccountCreation(Connection con,Scanner sc)throws Exception
 	{
 	System.out.println("**Account Creation Section**");
-	System.out.println("Enetr your First Name:");
+	System.out.println("Enter your First Name:");
 	String fname=sc.next();
-	System.out.println("Enetr your Lastst Name:");
+	System.out.println("Enter your Last Name:");
 	String lname=sc.next();
 	 System.out.println("Enter you 10 digit Mobile Number:");
 	long mnum=sc.nextLong();
