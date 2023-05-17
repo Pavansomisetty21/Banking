@@ -26,7 +26,7 @@ public class Transfer
    		if(cn==1) 
    		{
    			System.out.print("The Account Holder name is ");
-   			ResultSet rs=st.executeQuery("select custname from Account where accnum="+destAccNum);
+  ResultSet rs=st.executeQuery("select custname from Account where accnum="+destAccNum);
    			while(rs.next())
    			{
    				System.out.print(rs.getString(1));
