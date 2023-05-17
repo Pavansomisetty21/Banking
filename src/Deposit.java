@@ -17,7 +17,7 @@ public class Deposit
 		int res=st.executeUpdate(qry);
 		if(res==1)
 		{
-			System.out.println("Amount Deposited Successfully");
+			System.out.println("Amount  Deposited Successfully");
 		}
 		}
 		else
