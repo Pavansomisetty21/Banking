@@ -88,7 +88,7 @@ public class Bank {
 				   				System.out.println("Enter Registered mobile number:");
 				   				long mNum=input.nextLong();
 				   				Statement st1=con.createStatement();
-				   	ResultSet rs=st1.executeQuery("select accnum from Account where mobnum="+mNum+" AND adharnum="+aNum);
+				   	ResultSet rs=st1.executeQuery("select accnum from Account where mobnum="+mNum+" AND adhaarnum="+aNum);
 					   			int count=0;
 				   				while(rs.next())
 					   			{
