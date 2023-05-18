@@ -10,7 +10,7 @@ public class Balance
 	{		
 				long balance=0;
 				Statement st1=con.createStatement();
-		   		String qry1="select balence from Account where accnum="+anum;
+		   		String qry1="select balance from Account where accnum="+anum;
 		   		ResultSet result1=st1.executeQuery(qry1);
 		   		while(result1.next())
 		   		{
