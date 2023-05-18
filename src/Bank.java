@@ -21,7 +21,7 @@ public class Bank {
 			switch(choice)
 			{
 			case 1:{
-						System.out.println("Enete your Account Number To Continue:");
+						System.out.println("Enter your Account Number To Continue:");
 				   		long anumber=input.nextLong();
 				   		Statement st=con.createStatement();
 				   		String qry="select count(*)from Account where accnum="+anumber;
@@ -79,7 +79,7 @@ public class Bank {
 				   		}
 				   		else
 				   		{
-				   			System.out.println("Account Number Not Exit!!--Pleas enter correct Account Number");
+				   			System.out.println("Account Number Not Exit!!--Please enter correct Account Number");
 				   			System.out.println("Forget Account number(press 1):");
 				   			if(input.nextInt()==1)
 				   			{
