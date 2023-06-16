@@ -15,7 +15,7 @@ public class AccountCreation
 	String lname=sc.next();
 	 System.out.println("Enter you 10 digit Mobile Number:");
 	long mnum=sc.nextLong();
-	System.out.println("Enter you 12 digit Adhar Number:");
+	System.out.println("Enter you 12 digit Adhaar Number:");
 	long adhaarnum=sc.nextLong();
 	long accnum=(long)(Math.random()*100000000000000L+1);
 	String qry="insert into Account values(?,?,?,?,?)";
