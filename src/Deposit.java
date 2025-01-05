@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Deposit
 {
-	Deposit(Connection con,long anum,Scanner input)throws Exception
+ Deposit(Connection con,long anum,Scanner input)throws Exception
 	{
 		System.out.println("Enter Amount to Deposit:");
 		long amount=input.nextLong();
