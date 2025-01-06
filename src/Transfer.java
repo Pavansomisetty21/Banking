@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Transfer 
 {
-	Transfer(Connection con,long anum,Scanner input)throws Exception
+ Transfer(Connection con,long anum,Scanner input)throws Exception
 	{
 		System.out.println("**Welcome to Transfer Section**");
 		System.out.println("Enter Destination account Number to transfer:");
